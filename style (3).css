@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;400;600&family=Poppins:wght@300;400&family=Roboto&family=Rubik+Iso&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: #4a154b;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: #4a154b;
+    display: flex;
+    justify-content: space-around;
+
+}
+div>img{
+    height: 100px;
+    width: auto;
+}
+nav>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h4,h3{
+    margin-right: 25px;
+}
+div>div>img{
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: 3px solid white;
+    background-color: #4a154b;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+div~button{
+    background-color: white;
+    color: #4a154b;
+    font-weight: bold;
+}
+h4+h4{
+    writing-mode: vertical-lr;
+}
+nav>div>div>{
+    display: flex;
+}
